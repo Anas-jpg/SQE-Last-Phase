@@ -1,0 +1,45 @@
+Modularity is a system property which measures the degree to which densely connected compartments within
+a system can be decoupled into separate communities or clusters which interact more among themselves rather 
+than other communities. So to achieve for our application Snack Time-Any Time
+
+Following is the basic structure to keep the relevant modules at one place
+Here’s what a complete package that uses every corner of these guidelines might look like:
+enchilada/
+  .dart_tool/ *
+  pubspec.yaml
+  pubspec.lock **
+  LICENSE
+  README.md
+  CHANGELOG.md
+  benchmark/
+    make_lunch.dart
+  bin/
+    enchilada
+  doc/
+    api/ ***
+    getting_started.md
+  example/
+    main.dart
+  lib/
+    enchilada.dart
+    tortilla.dart
+    guacamole.css
+    src/
+      beans.dart
+      queso.dart
+  test/
+    enchilada_test.dart
+    tortilla_test.dart
+  tool/
+    generate_docs.dart
+  web/
+    index.html
+    main.dart
+    style.css
+
+The mobile application will need to communicate to a GPS Api to make the program more modular within 
+the mobile phone, which in turn communicates with a physical GPS device to find the location of the user. 
+The GPS will provide the mobile application with the locations of both the user and the restaurants and the distance
+ between them, but it will also provide maps and the functionality to display the application’s data on the map. 
+The functionality provided by the GPS will be embedded into the application for the user to be able to use the functions 
+in the application in a seamless manner. Then System will have a central database for fetching the data
