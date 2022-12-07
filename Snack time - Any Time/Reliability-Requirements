@@ -1,0 +1,23 @@
+
+The reliability Requirements are given below:
+
+5.1	The application shall have a 0.1% chance of failure when a service request for finding the nearest restaurant.
+	5.1.1  The application shall get all data of the restaurant(food, price, etc) in less than 0.5 seconds.
+
+
+5.2.  The system shall have 99.9% uptime Availability with one-hour downtime per year in worse scenarios.
+     5.2.1. The system shall use AWS Load Balancing to help minimize downtime and balance the burden on servers.
+     5.2.2. The system shall use AWS High Availability with an S3 storage tier to reduce downtime.
+     5.2.3. The system shall use AWS Elastic Disaster Recovery to prevent data loss.
+ 
+
+5.3	The application shall use HTTP/3 protocol that enables QUIC to speed up the secure transmission of traffic. 
+	5.3.1  The application shall be scalable enough to support more than 1000+ visitors during peak hours.
+
+
+5.4	The system shall be 99% recoverable after losing the connectivity of GPS.
+	5.4.1	  The system shall be informed in less than 0.1 seconds after losing the connectivity issues.
+
+     
+5.5.  The system shall be compatible with AWS.
+    5.5.1. The system shall use AWS Load Scaling services to store all details of the restaurant.
