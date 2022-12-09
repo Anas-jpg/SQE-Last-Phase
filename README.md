@@ -1,1 +1,0 @@
-#SQE Last Phase
