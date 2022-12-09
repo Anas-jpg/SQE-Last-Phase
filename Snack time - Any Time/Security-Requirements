@@ -1,0 +1,27 @@
+The security Requirements are given below:
+
+4.1	The system shall have 100% of the Communication Messages of a log-in session should be encrypted.
+
+4.2	The system shall not be able to log in if some restaurant owner tries to log in with a non-existing account.
+	4.2.1		The system shall be able to notify the restaurant owner about the login failure.
+
+4.3	The system shall not be able to log in if some user tries to log in with a non-existing account.
+	4.3.1		The system shall be able to notify the user about the login failure.
+
+4.4	The system shall not be able to log in for a certain time after three times of failed log-in attempts. 
+	4.4.1		The system shall be able to lock the login function for half an hour if the users attempt to log in exceeding 3 times.
+
+4.5	The system shall be able to ask for a different restaurant name if the desired restaurant name is already occupied.
+
+4.6	The system shall have a two-factor authentication
+	4.6.1		The system shall be compatible with Google Authenticator.
+
+4.7	The system shall allow the user to recover their username and password
+	4.7.1		The system shall offer a “forgot username and password” functionality to the user if they got the login credentials incorrect.
+	4.7.2		The system shall be able to send a recovery code to the secondary mail or mobile number that allows the user to set their new password.
+
+4.8	The system shall allow the restaurant owner to recover their username and password
+	4.8.1		The system shall offer a “forgot username and password” functionality to the restaurant owner if they got the login credentials incorrect.
+	4.8.2		The system shall be able to send a recovery code to the secondary mail or mobile number that allows the restaurant owner to set their new password.
+
+4.9	The system shall be able to ask for a different username if the desired username is already occupied.
