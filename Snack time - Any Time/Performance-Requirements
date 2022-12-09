@@ -1,0 +1,19 @@
+The Performance Requirements are given below:
+
+3.1	The system shall have a search feature for finding the restaurant.
+	3.1.1	  The system shall have a prominent search feature and be easy to find for the user.
+	3.1.2	  The system shall have different search options which are simple and easy to understand for the user.
+
+3.2	The system shall display the result of the search in the list view.
+
+3.3	The system shall have a response time of search of fewer than 0.1 seconds.
+
+3.4	The system shall be able to handle more than 1000 users during peak hours.
+	3.4.1	  The system shall be able to handle the data of more than 1000+ registered users.
+
+3.5	The system shall push notifications to the user after some inappropriate actions.
+	3.5.1		The system shall push notification of the nearest restaurant that was newly opened.
+
+3.6	The system shall be able to use service workers for running in an offline mode.
+
+3.7	The system shall use CDN to monitor the cache.
