@@ -1,0 +1,19 @@
+Following are the documentation requirements:
+
+6.1    The documents shall have quality standards of the HIPAA that were implemented.
+
+6.2    The document shall have a manual guide after every release of version.
+ 
+6.3    The document shall have a test manual for quality analysis after every increment.
+  6.3.1    The test manual shall list coverage of all the requirements in detail.
+
+6.4    The document shall have a complete guide of how to set up the application in the operating system.
+
+6.5    The document shall explain the use of every feature that was implemented.
+  6.5.1    The document shall contain links along with each feature description.
+
+6.6    The document shall guide the restaurant owner to how to add restaurants in the application.
+  6.6.1    The document shall show the details of every restaurant included in the backend server.
+
+6.7     The document shall provide a stepwise procedure for using the Snack time-Any time.
+  6.7.1    The system shall have a video tutorial of how to make an account in the application.
